@@ -1,0 +1,16 @@
+body {
+	margin: 0;
+	min-height: 100vh;
+	overflow: hidden;
+}
+.spin {
+	display: inline-block;
+	position: absolute;
+	top: 53.5%;
+	left: 48%;
+	text-align: center;
+	vertical-align: bottom;
+	color: black;
+	-webkit-animation: fa-spin 4s infinite linear;
+	animation: fa-spin 4s infinite linear;
+}
